@@ -1,0 +1,7 @@
+1 - Open this folder in terminal
+2 - run "terraform init"
+3 - run "terraform plan"
+    - describe the changes
+4 - run "terraform apply"
+
+Now just go to your aws console and you should have an EC2 instance running.
