@@ -11,4 +11,12 @@ ANSIBLE
 - create file hosts.yml to set the hosts
 - run "ansible-playbook playbook.yml -u ubuntu --private-key ../keys/aws/iac-noteuol.pem -i hosts.yml"
 
+- CREATE VENV PYTHON3
+- enter the directory created by playbook.yml (practice)
+- run ". venv/bin/activate"
+- run "django-admin startproject setup ." (python3 and dependencies were installed from playbook.yml
+- change file settings.py and put ALLOWED_HOSTS = ['*']
+- run "python manage.py runserver 0.0.0.0:8000"
+
+
 Now just go to your aws console and you should have an EC2 instance running.
