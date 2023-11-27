@@ -18,6 +18,6 @@ resource "aws_instance" "app_server" {
   instance_type = "t2.micro"
   key_name = "iac-noteuol"
   tags = {
-    Name = "First Instance" //EC2 instanceName
+    Name = "Ansible Instance" //EC2 instanceName
   }
 }
